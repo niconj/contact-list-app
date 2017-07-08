@@ -1,0 +1,29 @@
+<div class="contact-list-details">
+  <div *ngIf="contact != null">
+    <div class="header">     
+      <img src="" alt="">     
+      <span>Name:</span>
+      <span>{{contact.name}}</span>
+      <span>Company:</span>
+      <span>{{contact.company}}</span>
+    </div>
+    <div class="phones">
+      <span>Work:</span>
+      <span>{{contact.phone.work}}</span>
+      <span>Home:</span>
+      <span>{{contact.phone.home}}</span>
+      <span>Mobile:</span>
+      <span>{{contact.phone.mobile}}</span>      
+    </div>
+    <div class="address">
+      <span>{{contact.address.street}}</span>
+      <span>{{contact.address.state}}, {{contact.address.zip}}</span>              
+    </div>
+    <div class="birthday">
+      <span>{{contact.birthday}}</span>
+    </div>
+    <div class="email">
+      <span>{{contact.email}}</span>
+    </div>
+  </div>
+</div>

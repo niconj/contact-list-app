@@ -1,0 +1,10 @@
+<div class="contact-list-component">
+  <p>Contact List</p>
+  <div class="contact-list-container">  
+    <div *ngFor="let contact of contacts" (click)="select(contact)">  
+      <img src={{contact.smallImageURL}}>      
+      <span>{{contact.name}}</span>
+      <span>{{contact.phone.mobile}}</span>
+    </div>  
+  </div>
+</div>     
