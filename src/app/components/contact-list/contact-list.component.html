@@ -1,10 +1,9 @@
 <div class="contact-list-component">
-  <p>Contact List</p>
-  <div class="contact-list-container">  
-    <div *ngFor="let contact of contacts" (click)="select(contact)">  
-      <img src={{contact.smallImageURL}}>      
-      <span>{{contact.name}}</span>
-      <span>{{contact.phone.mobile}}</span>
-    </div>  
-  </div>
+  <div *ngFor="let contact of contacts" [class.selected]="contact.selected" class="item" (click)="select(contact)">  
+    <img class="avatar" src={{contact.smallImageURL}} onerror="this.src='../../../assets/broken_image_1.png'">      
+    <div class="data">
+      <span class="name">{{contact.name}}</span><br>
+      <span class="mobile">{{contact.phone.mobile}}</span>
+    </div>
+  </div> 
 </div>     

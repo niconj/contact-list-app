@@ -1,0 +1,16 @@
+.contact-list-details {
+    float: right;
+    border: solid red;
+}
+
+.header {
+    border: solid yellow;
+}
+
+.phones {
+    border: solid green;
+}
+
+.address {
+    border: solid blueviolet;
+}

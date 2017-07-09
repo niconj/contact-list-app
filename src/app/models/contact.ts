@@ -21,4 +21,5 @@ export interface IContact {
             latitude: number,
             longitude: number
         };
+        selected: boolean;
     }

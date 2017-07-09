@@ -1,7 +1,7 @@
 <div class="contact-list-details">
   <div *ngIf="contact != null">
     <div class="header">     
-      <img src="" alt="">     
+      <img src={{contact.largeImageURL}} onerror="this.src='../../../assets/broken_image_2.png'">     
       <span>Name:</span>
       <span>{{contact.name}}</span>
       <span>Company:</span>

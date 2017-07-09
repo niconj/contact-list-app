@@ -1,3 +1,33 @@
 .contact-list-component {
     float: left;
+    max-width: 37%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.item {
+    border: solid;
+    margin: 0px 0px 10px 5px;
+    display: inline-block;
+    width: 100%;
+}
+
+.selected {
+    background: lightblue;
+}
+
+.avatar {
+    float: left;
+    margin: 7px;
+}
+
+.data {
+    margin: 5px;
+    float: left;
+}
+
+.name {
+    font-weight: bold;
+    font-size: larger;
 }

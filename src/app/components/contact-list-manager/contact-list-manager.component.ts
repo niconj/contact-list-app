@@ -12,6 +12,13 @@ export class ContactListManagerComponent {
   selectedContact: IContact;
 
   setContact(contact: IContact) {
+    const activeContact = this.selectedContact;
+
+    if (activeContact != null) {
+      activeContact.selected = false;
+    }
+
+    contact.selected = true;
     this.selectedContact = contact;
   }
 }
