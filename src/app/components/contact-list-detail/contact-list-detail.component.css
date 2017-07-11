@@ -1,16 +1,65 @@
 .contact-list-details {
-    float: right;
-    border: solid red;
+    float: left;
+    border-radius: 15px;
+    background: lightgray;
+    margin-left: 5%;
+    margin-top: 3%;
 }
 
 .header {
-    border: solid yellow;
+    display: flex;
+}
+.header img {
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.header-data {
+    float: right;
+    margin: 20px;
+}
+
+.header-data-item {
+    margin: 10px 0px 0px 0px;
+}
+
+.header-data-item b {
+    font-size: larger;
 }
 
 .phones {
-    border: solid green;
+    margin: 5px;
+}
+
+.phone-item {
+    display: flex; 
+    margin: 10px;
+}
+
+.phone-item div {
+    width: 100%;
 }
 
 .address {
-    border: solid blueviolet;
+    margin: 5px;
+}
+
+.address-item {
+    margin: 10px;
+}
+
+.birthday {
+    margin: 5px;
+}
+
+.birthday-item {
+    margin: 10px;
+}
+
+.email {
+    margin: 5px;
+}
+
+.email-item {
+    margin: 10px;
 }

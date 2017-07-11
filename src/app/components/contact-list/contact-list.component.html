@@ -3,7 +3,7 @@
     <img class="avatar" src={{contact.smallImageURL}} onerror="this.src='../../../assets/broken_image_1.png'">      
     <div class="data">
       <span class="name">{{contact.name}}</span><br>
-      <span class="mobile">{{contact.phone.mobile}}</span>
+      <span class="mobile">{{contact.phone.mobile | formatPhone}}</span>
     </div>
   </div> 
 </div>     

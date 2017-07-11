@@ -1,3 +1,4 @@
+import { FormatPhone } from './Pipes/formatPhone.pipe';
 import { ContactListDetailComponent } from './components/contact-list-detail/contact-list-detail.component';
 import { ContactListComponent } from './components/contact-list/contact-list.component';
 import { BrowserModule } from '@angular/platform-browser';
@@ -10,7 +11,8 @@ import { ContactListManagerComponent } from './components/contact-list-manager/c
   declarations: [
     ContactListManagerComponent,
     ContactListComponent,
-    ContactListDetailComponent
+    ContactListDetailComponent,
+    FormatPhone
   ],
   imports: [
     BrowserModule,

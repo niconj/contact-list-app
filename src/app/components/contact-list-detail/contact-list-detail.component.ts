@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { IContact } from './../../models/contact';
+import {Pipe} from '@angular/core';
 
 @Component({
   selector: 'app-contact-list-detail',
