@@ -8,10 +8,11 @@
 
 .header {
     display: flex;
-}
-.header img {
-    margin: 10px;
-    border-radius: 50%;
+
+    img {
+        margin: 10px;
+        border-radius: 50%;
+    }
 }
 
 .header-data {
@@ -27,39 +28,24 @@
     font-size: larger;
 }
 
-.phones {
+.data-container {
     margin: 5px;
+
+    span {
+        text-decoration: underline;
+    }
+}
+
+.data-item {
+    margin: 10px;
 }
 
 .phone-item {
     display: flex; 
     margin: 10px;
+    
+    div {    
+        width: 100%;
+    }
 }
 
-.phone-item div {
-    width: 100%;
-}
-
-.address {
-    margin: 5px;
-}
-
-.address-item {
-    margin: 10px;
-}
-
-.birthday {
-    margin: 5px;
-}
-
-.birthday-item {
-    margin: 10px;
-}
-
-.email {
-    margin: 5px;
-}
-
-.email-item {
-    margin: 10px;
-}

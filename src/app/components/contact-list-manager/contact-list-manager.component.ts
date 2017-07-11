@@ -6,7 +6,7 @@ import { ContactListDetailComponent } from './../contact-list-detail/contact-lis
 @Component({
   selector: 'app-contact-list-manager',
   templateUrl: './contact-list-manager.component.html',
-  styleUrls: ['./contact-list-manager.component.css']
+  styleUrls: ['./contact-list-manager.component.scss']
 })
 export class ContactListManagerComponent {
   selectedContact: IContact;

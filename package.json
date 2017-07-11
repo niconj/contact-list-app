@@ -29,6 +29,7 @@
     "@angular/compiler-cli": "^4.0.0",
     "@types/node": "~6.0.60",
     "codelyzer": "~2.0.0",
+    "node-sass": "^4.5.3",
     "ts-node": "~2.0.0",
     "tslint": "~4.5.0",
     "typescript": "~2.2.0"
